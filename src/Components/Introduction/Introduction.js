@@ -1,6 +1,7 @@
 import './Introduction.css';
 import Button from "../Button/Button";
-import fotoPortafolio from '../../assets/img/Foto-Portafolio.JPG';
+import Avatar from "../Avatar";
+
 const Introduction = () => {
     return (
         <section className="row  col-12 mx-auto align-items-center my-5">
@@ -33,7 +34,7 @@ const Introduction = () => {
             </div>
             <div className="col-12 col-lg-5 ">
                 <div className="col-12 col-sm-8 mx-auto my-4">
-                    <img className="portafolio-img" src={fotoPortafolio} alt="Foto de mi portafolio"/>
+                    <Avatar/>
                 </div>
             </div>
         </section>

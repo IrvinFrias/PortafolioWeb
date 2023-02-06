@@ -1,0 +1,48 @@
+.chatpopup{
+    position: fixed;
+    bottom:90px;
+    right: 20px;
+    background-color: #f6f7f8;
+    border-radius: 5px;
+    color: white;
+
+}
+.chatpopup-header{
+    background: #2db742;
+    padding: 1.5rem;
+    border-radius: 5px 5px 0 0;
+}
+.chatpopup-footer{
+    padding: 0 1.5rem 0 1.5rem;
+}
+.chatpopup-card{
+    background: #e7e7e7;
+    border-left: 2px solid #2db742;
+    color: #131313;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+.avatar-container{
+    width: 50px;
+    margin: 0 10px 0 0;
+}
+.card-text{
+    margin: 0;
+    font-size: 0.9rem;
+}
+.link-whatsapp{
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 2s;
+}
+.chatpopup-card:hover{
+    scale: 1.03;
+}
+.text-help{
+    color: #363636;
+    font-size: 0.9rem;
+    margin: 0;
+}
