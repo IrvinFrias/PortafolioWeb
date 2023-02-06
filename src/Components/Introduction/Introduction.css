@@ -1,0 +1,18 @@
+.main-text{
+    text-align: justify;
+}
+
+.social-icons{
+    margin: 0 0 0 1rem;
+    color: #131313;
+    transition: all 0.2s;
+}
+.social-icons:hover{
+    color: #ffc107
+
+}
+.portafolio-img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
