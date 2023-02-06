@@ -3,7 +3,7 @@ import Avatar from "../../Avatar";
 import {motion} from "framer-motion";
 const Chatpopup = ()=> {
     return(
-        <motion.div className="chatpopup" animate={{ y: -20}}
+        <motion.div className="chatpopup" animate={{ y: -15}}
                     transition={{ type: "spring", stiffness: 50}}>
 
             <div className="chatpopup-header">
