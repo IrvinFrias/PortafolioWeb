@@ -1,0 +1,32 @@
+.form{
+    width: 95%;
+    margin: 0 auto;
+}
+.input-text{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #3d3d3d;
+    outline: none;
+    padding: 0.4rem;
+}
+.input-text:focus{
+    border-bottom: 1px solid #ffc107;
+}
+.input-label{
+    margin: 1rem 0 0 0;
+    color: #323233;
+    font-size: 1rem;
+}
+.input-label.active{
+    color: #ffc107;
+    font-weight: bolder;
+}
+.textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #3d3d3d;
+    outline: none;
+    padding: 0.4rem;
+}

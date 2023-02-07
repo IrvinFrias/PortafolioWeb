@@ -1,0 +1,30 @@
+.contact-directory{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+}
+.contact-item{
+    margin: 0 0 2rem 0;
+}
+.contact-svg{
+    color: #ffc107;
+    margin: 0 1rem;
+}
+.contact-info{
+    text-decoration: none;
+    color: white;
+}
+.contact-info:hover{
+    color: #ffc107;
+}
+.contact-svg:hover{
+    color: purple;
+}
+.contact-icons{
+    margin: 0 0 0 1rem;
+    color: #ffc107;
+    transition: all 0.2s;
+}
+.contact-icons:hover{
+    color: purple;
+}
