@@ -1,0 +1,13 @@
+.card{
+    border: none!important;
+}
+.img-top-container{
+    overflow: hidden;
+}
+.card-img-top{
+    border-radius: 10px;
+    transition: all 700ms ease;
+}
+.card-img-top:hover{
+    scale: 1.1;
+}
