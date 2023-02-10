@@ -23,7 +23,6 @@ const FormContact = () => {
                     <input
                         placeholder="Name"
                         autoComplete="given-name"
-                        autoFocus
                         className="input-text"
                         type="text"
                         name="firstname"

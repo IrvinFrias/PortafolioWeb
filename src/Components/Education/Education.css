@@ -1,0 +1,21 @@
+.education{
+}
+.main-text{
+    text-align: justify;
+}
+.w-80{
+    width: 75%;
+    margin: 0 auto;
+}
+
+/*Acordion*/
+.accordion{
+
+}
+.accordion-button:after{
+    content: "\F64D";
+
+}
+.text-btn-accordion{
+    color: #ffc107;
+}

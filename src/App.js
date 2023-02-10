@@ -5,6 +5,7 @@ import Contacto from "./Components/Contacto/Contacto";
 import Footer from "./Components/Footer/Footer";
 import WhatsApp from "./Components/WhatsApp/WhatsApp";
 import Projects from "./Components/projects/Projects";
+import Education from "./Components/Education/Education";
 
 
 const App = () => {
@@ -13,6 +14,9 @@ const App = () => {
           <Navbar/>
           <Layout>
               <Introduction/>
+          </Layout>
+          <Education/>
+          <Layout>
               <Projects/>
           </Layout>
           <Contacto/>
