@@ -11,3 +11,6 @@
 .card-img-top:hover{
     scale: 1.1;
 }
+.pr-3{
+    padding: 0 1rem 0 0;
+}

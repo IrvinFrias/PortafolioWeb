@@ -2,7 +2,7 @@ import './SingleProject.css';
 
 const SingleProject = (props) =>{
     return (
-        <div className="card col-12 col-md-6 col-xl-4 col-xxl-3 px-2 my-1 my-4">
+        <div className="card col-12 col-md-6 col-xl-4 col-xxl-3 pr-3 my-4">
             <div className="img-top-container">
                 <img className="card-img-top w-100" src={props.img} alt="image of project"/>
             </div>

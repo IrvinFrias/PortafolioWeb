@@ -1,0 +1,52 @@
+.main-text{
+    text-align: justify;
+}
+.bg-yellow{
+    background-color: #ffd166;
+}
+
+tr > td{
+    padding: 1rem;
+    border: 1px solid #ffc107;
+
+}
+tr > th{
+    padding: 1rem;
+    text-align: center;
+    color: #282c34;
+}
+th > p{
+    margin: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img{
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img{
+        width: 50%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img{
+        width: 75%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .img{
+        width: 50%;
+    }
+}

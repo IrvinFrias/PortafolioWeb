@@ -4,11 +4,11 @@ import FormContact from "./FormContact/FormContact";
 const Contacto = () => {
     return(
         <section className="contact d-flex flex-wrap">
+
             <div className="contact-container col-12 col-md-5 bg-dark text-bg-dark">
                 <div className="contact-directory ">
                     <h2 className="my-4 mx-3 text-warning">Contact Information</h2>
                     <p className="mb-5 mx-3">Fill up the format and soon you will to receive a response</p>
-
                     <div className="contact-item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                              className="bi bi-telephone-fill contact-svg" viewBox="0 0 16 16">
@@ -47,13 +47,13 @@ const Contacto = () => {
                         </svg>
                     </div>
                 </div>
-
-
             </div>
 
             <div className="contact-form col-12 col-md-7">
                 <FormContact/>
             </div>
+
+
         </section>
     )
 }
