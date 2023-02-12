@@ -41,6 +41,7 @@ const OffcanvasProjects = () => {
                 {
                     value.recentProjects.map(recentProject =>
                         <RecentProject
+                            key={recentProject.name}
                             img={recentProject.img}
                             name={recentProject.name}
                             description={recentProject.description}

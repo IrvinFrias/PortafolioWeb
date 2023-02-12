@@ -1,10 +1,9 @@
 import './Introduction.css';
-import Button from "../Button/Button";
 import Avatar from "../Avatar";
-import socialicons from "../Socialicons/Socialicons";
 import Socialicons from "../Socialicons/Socialicons";
 import CV from "../../assets/img/CV_FriasTorresIrvinFernando_2023.pdf";
 import OffcanvasProjects from "./OffcanvasProjects/OffcanvasProjects";
+
 
 const Introduction = () => {
     return (
@@ -16,7 +15,7 @@ const Introduction = () => {
                     My expertise in front-end technologies allows me to turn designs into reality, creating visually appealing and responsive websites that meet the needs of both users and clients.
                 </p>
                 <div className="d-flex align-items-center flex-wrap-reverse">
-                    <button className="btn btn-warning col-12 col-md-4 col-xxl-2 text-nowrap"><a className="text-decoration-none text-bg-warning col-2" href={CV} target="_blank" download="CV_FriasTorresIrvinFernando_2023">Download CV</a></button>
+                   <a className="btn btn-warning col-12 col-md-3 col-lg-4 col-xl-3" href={CV} download="CV_FriasTorresIrvinFernando_2023.pdf"><button className="border-0 bg-warning">Download CV</button></a>
 
                     <>
                         <button className="btn btn-dark mx-md-3 col-12 col-md-3 col-lg-4 col-xl-3 my-3" type="button" data-bs-toggle="offcanvas"
@@ -24,8 +23,6 @@ const Introduction = () => {
                         </button>
                         <OffcanvasProjects/>
                     </>
-
-
                     <Socialicons bghover="#ffc107" bg="dark"/>
                 </div>
 

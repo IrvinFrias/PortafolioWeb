@@ -57,6 +57,7 @@ const Projects = ()=> {
                     {
                         card.projects.map(project =>
                             <SingleProject
+                                key={project.name}
                                 img={project.img}
                                 name={project.name}
                                 description={project.description}

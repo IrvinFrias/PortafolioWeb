@@ -1,6 +1,5 @@
 import './FormContact.css';
 import {useFormik} from "formik";
-import Button from "../../Button/Button";
 
 const FormContact = () => {
     const formik = useFormik({

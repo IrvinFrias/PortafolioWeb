@@ -12,7 +12,7 @@ const Chatpopup = ()=> {
             </div>
             <div className="chatpopup-footer">
                 <p className="text-help">I would love to help you</p>
-                <a className="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5514881143" target="_blank">
+                <a className="link-whatsapp" href="https://api.whatsapp.com/send/?phone=5514881143" target="_blank" rel="noreferrer">
                     <div className="chatpopup-card">
                         <div className="avatar-container">
                             <Avatar/>

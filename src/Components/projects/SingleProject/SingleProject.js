@@ -3,7 +3,7 @@ import './SingleProject.css';
 const SingleProject = (props) =>{
     return (
         <div className="card col-12 col-md-6 col-xl-4 col-xxl-3 pr-3 my-4">
-            <a href={props.url} target="_blank">
+            <a href={props.url} target="_blank" rel="noreferrer">
                 <div className="img-top-container">
                     <img className="card-img-top w-100" src={props.img} alt="image of project"/>
                 </div>
@@ -19,7 +19,7 @@ const SingleProject = (props) =>{
                 </div>
 
                 <p className="card-text">{props.description}</p>
-                <a href={props.url} target="_blank" className="btn btn-dark rounded-0 my-2">Go project</a>
+                <a href={props.url} target="_blank" rel="noreferrer" className="btn btn-dark rounded-0 my-2">Go project</a>
             </div>
         </div>
     )

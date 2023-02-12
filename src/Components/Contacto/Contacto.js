@@ -1,5 +1,4 @@
 import './Contacto.css';
-import Socialicons from "../Socialicons/Socialicons";
 import FormContact from "./FormContact/FormContact";
 const Contacto = () => {
     return(
