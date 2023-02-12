@@ -1,8 +1,6 @@
-import './SingleProject.css';
-
-const SingleProject = (props) =>{
-    return (
-        <div className="card col-12 col-md-6 col-xl-4 col-xxl-3 pr-3 my-4">
+const RecentProject = (props)=>{
+    return(
+        <div className="card col-12 my-4">
             <a href={props.url} target="_blank">
                 <div className="img-top-container">
                     <img className="card-img-top w-100" src={props.img} alt="image of project"/>
@@ -24,4 +22,4 @@ const SingleProject = (props) =>{
         </div>
     )
 }
-export default SingleProject;
+export default RecentProject;
