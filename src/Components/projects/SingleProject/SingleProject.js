@@ -18,7 +18,7 @@ const SingleProject = (props) =>{
                     </div>
                 </div>
 
-                <p className="card-text">{props.description}</p>
+                <p className="card-text text-justify">{props.description}</p>
                 <a href={props.url} target="_blank" rel="noreferrer" className="btn btn-dark rounded-0 my-2">Go project</a>
             </div>
         </div>

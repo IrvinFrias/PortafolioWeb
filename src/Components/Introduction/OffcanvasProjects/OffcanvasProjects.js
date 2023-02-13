@@ -9,21 +9,25 @@ const OffcanvasProjects = () => {
             {
                 img: casaFotografica,
                 name: 'Casa Fotográfica',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nostrum sit suscipit.',
+                description: 'This project saw the establishment of a photographic\n' +
+                    'studio where photography services for graduation\n' +
+                    'photos are marketed.',
                 progress: 80,
                 url: 'https://master.d2srinrnx4yqwm.amplifyapp.com/'
             },
             {
                 img: casaCafetalera,
                 name: 'Casa cafetalera',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nostrum sit suscipit.',
+                description: 'In this project, I developed a landing page where the cafe house can offer its products',
                 progress: 70,
                 url: '#'
             },
             {
                 img: calcFinanciera,
                 name: 'Calculadora financiera',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nostrum sit suscipit.',
+                description: 'In this project, I developed a financial calculator app\n' +
+                    'where users can perform various financial calculations\n' +
+                    'and manage their finances effectively.',
                 progress: 90,
                 url: 'https://master.d1x73shsujph0s.amplifyapp.com/',
             },
