@@ -1,7 +1,7 @@
 import './Introduction.css';
 import Avatar from "../Avatar";
 import Socialicons from "../Socialicons/Socialicons";
-import CV from '../../assets/img/CV_FriasTorresIrvinFernando_2023.pdf';
+import CV from '../../assets/img/CV_FriasTorresIrvinFernando_2023-01.png';
 import OffcanvasProjects from "./OffcanvasProjects/OffcanvasProjects";
 
 
@@ -15,7 +15,7 @@ const Introduction = () => {
                     My expertise in front-end technologies allows me to turn designs into reality, creating visually appealing and responsive websites that meet the needs of both users and clients.
                 </p>
                 <div className="d-flex align-items-center flex-wrap-reverse">
-                    <a className="btn btn-warning col-12 col-md-3 col-lg-4 col-xl-3" href={CV} download="CV_FriasTorresIrvinFernando_2023.pdf">Download CV</a>
+                    <a className="btn btn-warning col-12 col-md-3 col-lg-4 col-xl-3" href={CV} download="CV_FriasTorresIrvinFernando_2023.png">Download CV</a>
                     <>
                         <button className="btn btn-dark mx-md-3 col-12 col-md-3 col-lg-4 col-xl-3 my-3" type="button" data-bs-toggle="offcanvas"
                                 data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Recent Projects
