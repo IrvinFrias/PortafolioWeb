@@ -7,37 +7,37 @@ const Footer = () => {
                     <div className="col-12 col-md-6 col-lg-3 text-center text-md-start">
                         <h5 className="text-warning">Proyectos Web</h5>
                         <ul className="list-unstyled">
-                            <li>Casa Fotográfica</li>
-                            <li>Casa Cafetalera</li>
-                            <li>Calculadora Financiera</li>
-                            <li>Tienda de monitores</li>
-                            <li>Registro de usuarios</li>
+                            <li className="footer-item">Casa Fotográfica</li>
+                            <li className="footer-item">Casa Cafetalera</li>
+                            <li className="footer-item">Calculadora Financiera</li>
+                            <li className="footer-item">Tienda de monitores</li>
+                            <li className="footer-item">Registro de usuarios</li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-3 text-center text-md-start">
                         <h5 className="text-warning">Frameworks</h5>
                         <ul className="list-unstyled">
-                            <li>Angular</li>
-                            <li>React</li>
-                            <li>Bootstrap</li>
+                            <li className="footer-item">Angular</li>
+                            <li className="footer-item">React</li>
+                            <li className="footer-item">Bootstrap</li>
                         </ul>
                     </div>
                     <div className="col-12 col-md-6 col-lg-3 text-center text-md-start">
                         <h5 className="text-warning">Education</h5>
                         <ul className="list-unstyled">
-                            <li>Engineering geophysical</li>
-                            <li>Bank and finance diploma</li>
-                            <li>Oracle + Alura Bootcamp</li>
+                            <li className="footer-item">Engineering geophysical</li>
+                            <li className="footer-item">Bank and finance diploma</li>
+                            <li className="footer-item">Oracle + Alura Bootcamp</li>
                         </ul>
                     </div>
 
                     <div className="col-12 col-md-6 col-lg-3  text-center text-md-start">
                         <h5 className="text-warning">Contacto</h5>
                         <ul className="list-unstyled">
-                            <li>+52 5514881143</li>
-                            <li>fer.frias.unam@gmail.com</li>
-                            <li>irvin.frias.unam@outlook.com</li>
+                            <li className="footer-item">+52 5514881143</li>
+                            <li className="footer-item">fer.frias.unam@gmail.com</li>
+                            <li className="footer-item">irvin.frias.unam@outlook.com</li>
                         </ul>
                     </div>
                 </div>

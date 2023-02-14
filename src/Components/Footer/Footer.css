@@ -1,3 +1,7 @@
 .footer-first{
     border-bottom: 1px solid white;
 }
+.footer-item:hover{
+    color: #ffc107;
+    cursor:pointer;
+}
