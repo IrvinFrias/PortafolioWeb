@@ -3,6 +3,8 @@ import {useState} from "react";
 import casaFotografica from "../../../assets/img/projects/CasaFotograficaImperial.png";
 import casaCafetalera from "../../../assets/img/projects/CasaCafetalera.png";
 import calcFinanciera from "../../../assets/img/projects/CalculadoraFinanciera.png";
+import gallery from "../../../assets/img/projects/Galery.png";
+import portfolio from "../../../assets/img/projects/portfolio.png";
 const OffcanvasProjects = () => {
     const [value, setValue] = useState({
         recentProjects:[
@@ -30,6 +32,21 @@ const OffcanvasProjects = () => {
                     'and manage their finances effectively.',
                 progress: 90,
                 url: 'https://master.d1x73shsujph0s.amplifyapp.com/',
+            },
+            {
+                img: gallery,
+                name: 'Gallery',
+                description: 'In this project, I developed a gallery where the users can search images',
+                progress: 60,
+                url: 'https://master.dxtv6nnrnom9q.amplifyapp.com/',
+
+            },
+            {
+                img: portfolio,
+                name: 'Portfolio Web',
+                description: 'this my portfolio, powered by react and stylized by bootstrap 5',
+                progress: 100,
+                url: 'https://master.d1c38koe43zwh2.amplifyapp.com/',
             },
         ]
     });

@@ -1,5 +1,5 @@
 .triangle{
-    position: fixed;
+    position: absolute;
     top: 2.9rem;
     left: 11.5rem;
     width: 0;

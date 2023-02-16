@@ -9,6 +9,8 @@ import calcFinanciera from "../../assets/img/projects/CalculadoraFinanciera.png"
 import tiendaMonitores from "../../assets/img/projects/TiendaMonitores.png";
 import registroUsuarios from "../../assets/img/projects/RegistroUsuarios.png";
 import {motion} from "framer-motion";
+import gallery from "../../assets/img/projects/Galery.png";
+import portfolio from "../../assets/img/projects/portfolio.png";
 
 const ProjectsDropdown = () => {
     const [card, setCard] = useState({
@@ -35,7 +37,22 @@ const ProjectsDropdown = () => {
                 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea nostrum sit suscipit.',
                 progress: 90,
                 url: '#',
-            }
+            },
+            {
+                img: gallery,
+                name: 'Gallery',
+                description: 'In this project, I developed a gallery where the users can search images',
+                progress: 90,
+                url: 'https://master.dxtv6nnrnom9q.amplifyapp.com/',
+
+            },
+            {
+                img: portfolio,
+                name: 'Portfolio Web',
+                description: 'this is my portfolio, powered by react and stylized by bootstrap 5',
+                progress: 100,
+                url: 'https://master.d1c38koe43zwh2.amplifyapp.com/',
+            },
         ],
         angularProjects: [
             {
@@ -55,6 +72,7 @@ const ProjectsDropdown = () => {
                 progress: 100,
                 url: 'https://master.d2vsalb1tkqlys.amplifyapp.com/',
             },
+
         ],
         seccionRender: true,
     });
