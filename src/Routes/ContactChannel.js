@@ -7,6 +7,7 @@ const ContactChannel = () => {
         <>
             <Navbar/>
             <Contacto/>
+            <div style={{height: "9rem"}}></div>
             <Footer/>
         </>
     )
