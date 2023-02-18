@@ -1,28 +1,27 @@
-import Navbar from "./Components/Navbar/Navbar";
-import Layout from "./Components/Layout/Layout";
-import Introduction from "./Components/Introduction/Introduction";
-import Contacto from "./Components/Contacto/Contacto";
-import Footer from "./Components/Footer/Footer";
-import WhatsApp from "./Components/WhatsApp/WhatsApp";
-import Projects from "./Components/projects/Projects";
-import Education from "./Components/Education/Education";
-import Skills from "./Components/Skills/Skills";
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Home from "./Routes/Home";
+import ContactChannel from "./Routes/ContactChannel";
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Home/>,
+        errorElement: <h3>Error</h3>,
+    },
+    {
+        path: '/contact',
+        element: <ContactChannel/>,
+        errorElement: <h3>Error</h3>,
+    },
+
+])
 
 
 const App = () => {
   return (
-      <div>
-          <Navbar/>
-          <Layout>
-              <Introduction/>
-          </Layout>
-          <Education/>
-          <Projects/>
-          <Skills/>
-          <Contacto/>
-          <Footer/>
-          <WhatsApp/>
-      </div>
+      <>
+          <RouterProvider router={router}/>
+      </>
   )
 }
 
