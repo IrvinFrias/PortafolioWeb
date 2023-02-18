@@ -80,7 +80,7 @@ const ProjectsDropdown = () => {
 
 
     return(
-        <motion.div className="projects-dropdown col-lg-9 col-xl-8 col-xxl-7 d-none d-lg-block" animate={{ y: 5}}
+        <motion.div className="projects-dropdown col-lg-10 d-none d-lg-block" animate={{ y: 5}}
              transition={{ type: "spring", stiffness: 50}}>
 
             <div className="d-flex">
